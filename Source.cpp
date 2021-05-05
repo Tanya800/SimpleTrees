@@ -13,7 +13,7 @@ void newQuestion(animalNode& question) {
 	cout << "Какое животное вы загадали?" << endl;
 	cin >> animal;
 
-	cout << "Какой вопрос поможет отличить " << question.getQuestion() << " от " << animal << ":";
+	//cout << "Какой вопрос поможет отличить " << question.getQuestion() << " от " << animal << ":";
 	cin.ignore();
 	getline(cin, newQuestion);
 
